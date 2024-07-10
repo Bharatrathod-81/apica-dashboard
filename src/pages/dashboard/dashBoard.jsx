@@ -4,11 +4,11 @@ import ValueCard from '../../components/common/valueCard/ValueCard';
 import { ValueCardIcon1, ValueCardIcon2, ValueCardIcon3, SidebarInventoryIcon, ValueCardIcon5, DownArrow } from '../../IconUtils';
 import DonutChart from '../../components/common/donutChart/DonutChart';
 import BarChart from '../../components/common/barChart/BarChart';
-import { IphoneOrders, valueCardList } from './data';
+import { IphoneOrders } from './data';
 
 const DashBoard = () => {
 
-  const valueCardList ={
+  const valueCardList = {
     card1: {
       icon:ValueCardIcon1, 
       isWeekDropDown:true, 
