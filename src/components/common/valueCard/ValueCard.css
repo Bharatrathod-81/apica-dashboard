@@ -1,0 +1,51 @@
+
+
+.valueCard-mainContainer{
+    padding: 11px 14px;
+    background-color: white;
+    border-radius: 12px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 4;
+}
+
+.valuecard-upper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.thisweek-container{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    align-items: center;
+    gap: 7px;
+    color: #BEC0CA ;
+    font-size: 12px;
+}
+
+.valueCard-lower{
+    display: flex;
+    margin-top: 32px;
+    justify-content: space-between;
+}
+
+.valueCardGray{
+    color: #BEC0CA ;
+    font-size: 14px;
+}
+
+.valueCard-lower-per{
+    font-size: 12px;
+}
+
+.valueCard-subContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.Abandned-cart{
+    color: rgb(243, 87, 87);
+}

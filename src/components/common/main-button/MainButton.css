@@ -1,0 +1,17 @@
+
+.mainBtn-container{
+    cursor: pointer;
+    color:#53545C;
+    transition: 300ms ease-in-out;
+}
+
+.count-container{
+    background-color: var(--Secondary-color-100);
+    width: 24px;
+    height: 24px;
+    border-radius: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

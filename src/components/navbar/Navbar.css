@@ -1,0 +1,88 @@
+.nav-main-container{
+    display:flex;
+    flex-direction:column;
+    flex:1
+}
+
+.topNav{
+    padding: 7px 21px 14px 21px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sub-heading{
+    font-weight: 500;
+    font-size: 20px;
+    color: #45464E;
+    font-family: 'Poppins', sans-serif; 
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 5px;
+    height: 32px;
+    flex: 8;
+    margin-top: 7px;
+}
+
+.profile-content{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    height: 32px;
+    flex: 1;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+
+.icon{
+    background-color: var(--Secondary-color-50);
+    padding: 5px 12px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.icon2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.icon-text{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.bell-icon{
+    cursor: pointer;
+}
+
+.profile-img{
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.breadcrumbs{
+    border-top: 1px solid var(--Border-color);
+    padding: 4px 20px;
+}
+
+.breadcrumbs-content{
+    width: 240px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+}

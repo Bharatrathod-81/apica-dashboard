@@ -1,3 +1,7 @@
+/* global.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +15,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* For Chrome, Safari, and other WebKit browsers */
+::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
+}
+
+
+
+
+:root {
+  --Primary-color: #5570F1;
+  --Secondary-color-50: #FEF5EA;
+  --Secondary-color-100: #FFCC91;
+  --Border-color: #F1F3F9;
+}
+
